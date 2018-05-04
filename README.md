@@ -22,7 +22,7 @@ Models provide Sinatra applications with more structure by bringing object orien
 
 **NOTE:** You should take an active approach to walking students through the project linked below, which shows how to introduce basic models to a Sinatra app. 
 
-https://github.com/learn-co-curriculum/kwk-l1-sinatra-periodic-table
+<!--  https://github.com/learn-co-curriculum/kwk-l1-sinatra-periodic-table  -->
 
 We have a standard Sinatra app setup, which should look familiar to the students. This app has the new addition of models (located under the `models` directory). We also have a `rake console` task that will load our code into IRB so we can play with the objects outside of the context of the web app.
 
