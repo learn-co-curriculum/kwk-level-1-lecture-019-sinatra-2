@@ -14,7 +14,16 @@ Teach students how to create dynamic routes by parsing variables out of URLs. Ad
 
 ## Introduction
 
+#### CFU
+Earlier we talked about dynamic information between a chef and customer. Think-Pair-Share: with your partner, give a real-world example of dynamic information.
+
 Having explored routes (responding to specific URLs) and views (returning erb templates) in the previous lecture, we will now turn our attention towards data models.
+
+#### CFU
+Throughout the lesson students will have a signaling card with a red and green side. During the lesson, if students are struggling to understand a concept as it is explained, they will turn their cards from green to red. Teachers may:
+- Partner green and red students to address questions/concerns,
+- Reteach key concepts if most of class is on red, or
+- Non-instructing teacher may individually conference with students during natural breaks as needed.
 
 ## Models
 
