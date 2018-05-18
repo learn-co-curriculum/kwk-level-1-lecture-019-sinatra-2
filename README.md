@@ -40,6 +40,9 @@ We have a standard Sinatra app setup, which should look familiar to the students
 
 6. Try typing `params` and examine what prints out. Ask the students to explain what we are seeing. Emphasize the importance of this: we now have a dynamic route! We can parse out specific information from the URL, (in this case, "atomic_number"), and use that to inform the response we send back! Highlight the correlation between the route name with `/:variable` and the key we see in the `params` hash.
 
+#### CFU
+Think-Write-Pair-Share: what's the big idea of the code along we just completed? Write down one takeaway from the lesson and one question you still have. We'll be sharing with a partner and then coming back whole-class.
+
 7. At this point, the students will break and do a coding exercise that uses this starter application. Make sure you are ready to troubleshoot questions. Students will likely have trouble creating an instance in their controller actions, as well as passing variables from these instances to be populated in their view. Remember: we should be, using the variable plucked out of `params` from the dynamic URL, creating a new instance in the controller action (don't forget to turn the string into an integer using `.to_i`). Instead of the static text that is rendering by default in our views, we should be loading text using `<%= >` tags and instance variables.
 
 ```ruby
